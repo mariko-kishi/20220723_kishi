@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.frex__item{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap
+}
+
+.wrap{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.plactice__card{
+  width: 100%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.plactice__card:last-child{
+  margin-bottom: 0;
+}
+
+.card__img img{
+  width: 100%;
+}
